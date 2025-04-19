@@ -356,6 +356,31 @@ img {
   font-size: 18px;
 }
 
+@media (min-width: 250px) and (max-width: 767px) {
+
+.theme-btn {
+  background: #FF5E14;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 15px 45px;
+  border: 0;
+  text-transform: capitalize;
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+  /* -webkit-clip-path: polygon(100% 0, 100% 75%, 88% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 75%, 88% 100%, 0 100%, 0 0); */
+  transition: all 0.3 ease-in-out;
+}
+
+}
+
+
+
+
 .theme-btn, .view-cart-btn {
   background: #FF5E14;
   border-radius: 5px;
@@ -373,6 +398,13 @@ img {
           clip-path: polygon(100% 0, 100% 75%, 88% 100%, 0 100%, 0 0); */
   transition: all 0.3 ease-in-out;
 }
+
+
+
+
+
+
+
 .theme-btn:hover, .view-cart-btn:hover, .theme-btn:focus, .view-cart-btn:focus, .theme-btn:active, .view-cart-btn:active {
   color: #fff;
   background: #02245B;
@@ -2488,8 +2520,8 @@ nav.navigation.navbar.navbar-expand-lg.navbar-light.sticky-header.sticky-on {
     padding: 20px 12px;
   }
   .wpo-site-header .header-right .close-form .theme-btn, .wpo-site-header .header-right .close-form .view-cart-btn {
-    -webkit-clip-path: polygon(100% 0, 100% 75%, 75% 100%, 0 100%, 0 0);
-            clip-path: polygon(100% 0, 100% 75%, 75% 100%, 0 100%, 0 0);
+    /* -webkit-clip-path: polygon(100% 0, 100% 75%, 75% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 75%, 75% 100%, 0 100%, 0 0); */
   }
   .wpo-site-header .header-right .close-form .theme-btn i, .wpo-site-header .header-right .close-form .view-cart-btn i {
     margin-right: 0px;
